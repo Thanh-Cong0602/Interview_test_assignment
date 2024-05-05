@@ -13,19 +13,18 @@ Wellcome to developing a test-assignment project
 
 # Setup
 
-- `Dependencies #################################`
-
-## Getting Started with Create Next App
+## Dependencies #################################`
+- `## Getting Started with Create Next App ##`
 
 This project was bootstrapped with
 [Create Next App](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-## Getting Started with TailwindCSS
+- `## Getting Started with TailwindCSS ##`
 
 This project was styled with
 [TailwindCSS](https://tailwindcss.com/docs/guides/nextjs).
 
-- `Configuration files #################################`
+## Configuration files #################################`
 
 - `File pretiierrc.json ###################`
 
@@ -38,6 +37,8 @@ This project was styled with
 - `File tsconfig.json ###################`
   - This is where I can configure TypeScript for my project.
 - `Run the development server: #################################`
+
+## Commands for running and testing #################################`
 
 ```bash
 npm run dev
