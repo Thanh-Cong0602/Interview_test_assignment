@@ -25,7 +25,7 @@ This project was bootstrapped with
 This project was styled with
 [TailwindCSS](https://tailwindcss.com/docs/guides/nextjs).
 
-First, run the development server:
+- `Run the development server: #################################` 
 
 ```bash
 npm run dev
@@ -35,40 +35,16 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
 ```
 
-src/ \\
-|
-├── data/  
-│ ├── recipients.ts
-| ├── tokens.ts  
-│ └── ...
-│
-├── pages/  
-│ ├── send-token # Send Token Page
-| ├── components/
-| ├── page.tsx  
-| └── style.css
-│
-├── public/ # Static assets
-│ ├── recipients/ # Image files
-│ |── tokents/ # Image files
-| └── ...
-|
-├── types/  
-│ ├── recipientType.ts  
-| └── tokenType.ts
-│
-├── globals.css # Global styles  
-├── layout.tsx
-├── page.tsx  
-│  
-├── prettierrc.json # Prettier
-|
-│
-├── .gitignore # Files to ignore in Git
-├── package.json # NPM package configuration
-├── README.md # Project README file
-└── tailwind.config.ts # custom tailwind CSS
+# Project Structure:
+
+- `My project structure includes folders such as data, public, type, and pages. Besides, I also configured the  prettierrrc.json file and tailwind.config.ts file` 
+  - The data directory contains mock data for the application when there are no corresponding APIs. 
+  - The public folder contains images related to the application, and these images are svg files taken from Figma. 
+  - The type routine will contain the type formats for the data folder because I use typescript for the application.
+  - The page folder will contain the application's interfaces, and here I have a folder called the send-token interface.
+
 
 
