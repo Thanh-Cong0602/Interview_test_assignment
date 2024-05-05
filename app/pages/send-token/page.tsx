@@ -9,8 +9,8 @@ import { faQrcode } from '@fortawesome/free-solid-svg-icons/faQrcode'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
-import RecipientsDropdown from './components/recipients'
-import TokensDropdown from './components/tokens'
+import RecipientsDropdown from './components/recipientsDropdown'
+import TokensDropdown from './components/tokensDropdown'
 import './style.css'
 
 function SendToken() {
@@ -54,6 +54,9 @@ function SendToken() {
     setInfortRecipient(undefined)
   }
 
+  /* Handle when recipients data or tokens data errors */
+  if (!RECIPIENTS_DATA || !TOKENS_DATA) return
+
   return (
     <div className='flex h-fit items-center justify-center sm:h-screen'>
       <div className='flex flex-col gap-6 rounded-[36px] bg-white-100 px-2 py-6 text-black sm:w-[780px] sm:px-6'>
@@ -66,7 +69,6 @@ function SendToken() {
             openRecipient || openToken ? 'cursor-default' : 'cursor-pointer'
           } `}
         >
-          {/* Left Design */}
           <div className='flex w-full flex-col gap-6 sm:max-w-[380px]'>
             <div>
               <div className='flex items-end gap-2'>
@@ -178,7 +180,7 @@ function SendToken() {
               </button>
             </div>
           </div>
-          {/* Right Design */}
+
           <div className='h-[314px] flex-1 rounded-[24px] border border-solid border-white-500 p-6'>
             <div className='flex flex-col gap-4'>
               <p className='text-base font-semibold leading-[18px] text-purple-400'>Summary</p>

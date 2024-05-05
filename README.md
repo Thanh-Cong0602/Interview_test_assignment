@@ -67,3 +67,10 @@ bun dev
 - `File tailwind.config.ts ###################`
 
   - This file is used to customize Tailwind's available CSS properties to be suitable and convenient to use with the application's design requirements.
+
+# Implementation Decisions:
+  - I chose next.js because I have experience working with this language and this choice will help me save time doing tests.
+  - I chose Tailwind CSS because it is a quick and convenient CSS code library for developers. Besides, Tailwind CSS has a large and enthusiastic community, so if you have problems or need help, you can easily find answers or support from this community.
+
+# Completion Time:
+ - It took me about 10 hours to complete all the projects. That's my estimate, so there could be a difference of about 30 minutes.
