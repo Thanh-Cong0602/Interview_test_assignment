@@ -13,7 +13,7 @@ Wellcome to developing a test-assignment project
 
 # Setup
 
-## Dependencies #################################`
+## Dependencies
 - `## Getting Started with Create Next App ##`
 
 This project was bootstrapped with
@@ -24,21 +24,23 @@ This project was bootstrapped with
 This project was styled with
 [TailwindCSS](https://tailwindcss.com/docs/guides/nextjs).
 
-## Configuration files #################################`
+## Configuration files
 
-- `File pretiierrc.json ###################`
+- `File pretiierrc.json #############`
 
   - Prettier files are used to format code according to a certain standard for consistency between developers.
 
-- `File tailwind.config.ts ###################`
+- `File tailwind.config.ts ##############`
 
   - This file is used to customize Tailwind's available CSS properties to be suitable and convenient to use with the application's design requirements.
 
-- `File tsconfig.json ###################`
+- `File tsconfig.json #############`
   - This is where I can configure TypeScript for my project.
-- `Run the development server: #################################`
 
-## Commands for running and testing #################################`
+
+## Commands for running and testing
+
+- `Run the development server: #############`
 
 ```bash
 npm run dev
